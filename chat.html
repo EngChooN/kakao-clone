@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat w/ Joonyoung - Kakao Clone</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-3x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">Joonyoung</h1>
+      </div>
+      <div class="alt-header__column">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen main-chat">
+      <div class="chat__timestamp">
+        Tuesday, June 30, 2024
+      </div>
+
+      <div class="message-row">
+        <img src="https://lh3.googleusercontent.com/a5hy69hoylT2L0v6LV09bS7KgND4R6azrdwgWKxU5LS7r6i4apGccNhWifWP9SCQMm1ikIosNHQkXCEF52JocV3SL3wtiU-dTaxddrvGawv0IK3X8sR8uZNY8GKQrHlXxBe2ABvhv0cwngv6L179pxl3Mq_JWQx36bBz5fZo2SYleoRrh39MaFFMM8wRBukF3yVGJRIibIOQtUmTY4chnA-kgx3WUyK849APaYHYRkZ5A10_ZGb2d7JTz5gPQ1ymwsw8M3VQu9zWFTTWp36iL9ZsPVMsaaqO4wXY_dRjViijf21DmjlVIC7808YbHX4gNfPknbFsnBvsYgqvbcHv29ClvNVIK3VorlU1b54nup_1F-0IhNw5gmJnG3DiBwbi8kmEA69ukVgOBuZdg1VMPYbPQv4QqhGCfIGrU28FFA_QdhbmQhLJ3f4R9PvTk3E2TcIIH8OCJP5tgaTgjdmtVuaYCCNIIwBDIwAV-TSjCehUnMR51V5mWjoNmI64nfPeuh9AgR-RXpEA126eeAOrDW3EUtA5FMf_U2x9IOb6nn9Bb3fTKB_s8n6lyOLEhEDI8AsSWWixj3_Ps47y1IJ5tcY0zLH2S-qvWuhAX4Y215x-5LNM0Y_oo274agQUcTqZNquCtzX5XhBZ7qaLAkQwnmQQguCEdIuFLglgTNoHkoMs2XJcl1tT3X4TKSzvs31AX2IybENoDTXf9GgPZ4R9mO30=s992-no?authuser=0" />
+        <div class="message-row__content">
+          <span class="message__author">Joonyoung</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi Yom!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Eng.</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="far fa-smile-wink fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <span>Your screen is too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
